@@ -1,24 +1,17 @@
-import { useState } from 'react'
 
-import './App.css'
 
-function App() {
-  const [count, setCount] = useState(1)
-
+const App = () => {
   return (
-    <>
-      <div>  
-      </div>
-      <div className="card">
-      <button onClick={() =>setCount((count) => count * 2)
-        
-        }>
-          count is {count}
-        </button>
-       
-      </div>
-    </>
+    <div>
+     <h1 >Hi this is a car learner
+      </h1> 
+    </div>
   )
 }
 
 export default App
+
+
+
+
+
