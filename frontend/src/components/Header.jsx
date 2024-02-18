@@ -15,12 +15,15 @@ const Header = () => {
 };
 
 const MainHeader = styled.header`
-  padding: 0 4.8rem;
+  padding: 0 3.8rem;
+  margin:0.3rem 0.9rem; 
+  border-radius:0.6rem;
   height: 10rem;
   background-color: ${({ theme }) => theme.colors.bg};
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border: 1px solid black;
 
   .logo {
     height: auto;
