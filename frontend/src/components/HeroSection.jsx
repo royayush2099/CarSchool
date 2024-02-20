@@ -20,10 +20,12 @@ const MainSec = styled.section`
         object-fit: cover;
         object-align: center;
         box-shadow: 0.6rem 0.4rem;
+        filter: brightness(70%);
+
 
         &:hover{
             cursor:cursor;
-            opacity: 0.8;
+            filter: brightness(89%);
         }
     }
 
