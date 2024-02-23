@@ -5,7 +5,7 @@ import Services from "./Services";
 import Contact from "./Contact";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
-import Footer from "./components/Footer";
+
 import { ThemeProvider } from "styled-components";
 import { GlobalStyle } from "./GlobalStyle";
 
@@ -48,7 +48,6 @@ const App = () => {
           <Route path="*" element={<Error />} />
         </Routes>
 
-        <Footer />
       </BrowserRouter>
     </ThemeProvider>
   );
